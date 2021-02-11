@@ -6,7 +6,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].length do
       if src[row_index][element_index].class == String
         phrase = src[row_index][element_index]
-        new_array << phrase.join("")
+        new_array << phrase
       end
     element_index += 1
     end
